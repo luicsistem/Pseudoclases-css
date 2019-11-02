@@ -1,0 +1,33 @@
+
+img {
+    width: 100px;
+    float: right ;
+    
+}
+   .sintaxis 
+   {
+       background: #f0f0f0;
+       font-size: 15px;
+       text-align: center;
+       width: 80%;
+       margin: 0 auto;
+       
+   }
+   ul li  {
+       background: #000;
+       color: #fff;
+       font-size: 30px;
+   }
+
+       ul li:first-child {
+           background: #dd4b22;
+       
+       }
+       ul li:last-child {
+           background: #f4d234;
+   
+       }
+       ul li:nth-child(2n) {
+           background: #27a5db;
+   
+       }
