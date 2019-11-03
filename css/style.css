@@ -101,6 +101,7 @@ img {
       .btn {
         border-radius: 6px;
         font-size: 20px;
+        cursor: pointer;
 
     }
      /* FOOTER */
