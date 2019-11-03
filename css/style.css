@@ -1,13 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    color: #0000ff;
+    text-transform: uppercase;
+}
 
 img {
-    width: 100px;
+    width: 60px;
     float: right ;
     
 }
    .sintaxis 
    {
        background: #f0f0f0;
-       font-size: 15px;
+       font-size: 13px;
        text-align: center;
        width: 80%;
        margin: 0 auto;
@@ -16,8 +31,9 @@ img {
    ul li  {
        background: #000;
        color: #fff;
-       font-size: 30px;
-   }
+       font-size: 25px;
+}
+      /* PSEUDOCLASES CHILD */
 
        ul li:first-child {
            background: #dd4b22;
@@ -29,5 +45,74 @@ img {
        }
        ul li:nth-child(2n) {
            background: #27a5db;
-   
-       }
+           
+        }
+        /* PSEUDOCLASES DE ENLACE Y ACCION DE USURIO */
+        .link a:link {
+            background: yellow;
+            text-decoration: none;
+        }
+        .visit a:visited {
+            color: red;
+            
+        }
+
+        .btn:hover {
+            background: #000;
+            color: #fff;
+        }
+        .btn:active {
+            background: yellow;
+            transform: scale(1.2);
+        }
+
+        input:focus {
+            background: orange;
+        
+        }
+
+        
+
+        .sintaxis, .pseudoclases, .pseudo_usu {
+
+            margin-top: 30px;
+        }
+        /* FORMULARIO */
+        
+        .formulario {
+          background: #27a5db;
+          max-width: 400px;
+          border-radius: 5px;
+          padding: 5px 20px;    
+          margin: 20px auto;
+          text-align: center;
+        
+          
+      }
+      .input-fields {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+      }
+      input {
+          border-radius: 3px;
+          margin: 5px;
+      }
+      .btn {
+        border-radius: 6px;
+        font-size: 20px;
+
+    }
+     /* FOOTER */
+  footer {
+      
+      height: 30px;
+  }
+    footer p {
+        background: #2098d1;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin-top: 10px;
+
+    }
